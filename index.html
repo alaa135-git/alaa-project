@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Signin Page</title>
+  <style>
+    body {
+      background-image: url('lol.jpg'); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.6); 
+    }
+
+    .navbar a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: black;
+    }
+
+    .form-container {
+      max-width: 300px;
+      margin: 100px auto;
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 20px;
+      border-radius: 50px;
+      text-align: center;
+    }
+
+    .form-container input {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .form-container button {
+      padding: 10px 20px;
+      background-color: #a9745c;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .form-container button:hover {
+      background-color: #8d5f4b;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="about.html">about</a>
+    <a href="contact.html">contact</a>
+  </div>
+
+  <div class="form-container">
+    <h2>Sign In</h2>
+    <form>
+      <input type="email" placeholder="Enter your email" required><br>
+      <input type="password" placeholder="Enter your password" required><br>
+      <button type="submit">Signin</button>
+    </form>
+  </div>
+
+</body>
+</html>
